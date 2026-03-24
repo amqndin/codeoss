@@ -16,7 +16,13 @@
     "workbench.iconTheme": "catppuccin-mocha",
     "editor.fontFamily": "JetBrainsMono Nerd Font",
     "security.workspace.trust.enabled": false,
+    "window.commandCenter": false,
+    "workbench.editor.showTabs": "single",
+    "editor.hideCursorInOverviewRuler": true,
+    "window.titleBarStyle": "native",
+    "window.menuBarVisibility": "toggle",
     "editor.fontSize": 16,
+    "terminal.integrated.fontSize": 16,
     "catppuccin.accentColor": "blue",
     "editor.minimap.enabled": false,
 
@@ -144,4 +150,5 @@
     ],
     "vim.insertModeKeyBindings": [
     ],
+    "workbench.startupEditor": "none",
 }
