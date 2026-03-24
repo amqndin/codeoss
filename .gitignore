@@ -1,5 +1,5 @@
-History
-globalStorage
-sync
-workspaceStorage
-syncLocalSettings.json
+*
+
+!.gitignore
+!keybindings.json
+!settings.json
