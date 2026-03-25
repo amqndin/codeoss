@@ -150,4 +150,5 @@
     "vim.insertModeKeyBindings": [
     ],
     "workbench.startupEditor": "none",
+    "git.autofetch": true,
 }
