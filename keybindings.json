@@ -182,5 +182,25 @@
     {
         "key": "alt+j",
         "command": "workbench.action.terminal.toggleTerminal"
-    }
+    },
+    {
+        "key": "ctrl+k ctrl+o",
+        "command": "vscode.openFolder"
+    },
+    {
+        "key": "alt+shift+j",
+        "command": "jumplist.jump1",
+    },
+    {
+        "key": "alt+shift+k",
+        "command": "jumplist.jump2",
+    },
+    {
+        "key": "alt+shift+l",
+        "command": "jumplist.jump3",
+    },
+    {
+        "key": "alt+shift+;",
+        "command": "jumplist.jump4",
+    },
 ]
