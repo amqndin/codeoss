@@ -52,9 +52,8 @@
             "commands": [ "vim.showQuickpickCmdLine" ],
         },
         {
-            "before": [ "<C-p>" ],
-            "commands": [ "workbench.action.quickOpen" ],
-            "when": "!suggestWidgetVisible && editorHasSignatureHelpProvider && editorTextFocus"
+            "before": [ "<leader>", "s", "f" ],
+            "commands": [ "workbench.action.openRecent" ]
         },
         {
             "before": [ "<leader>", "g", "e" ],
