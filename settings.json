@@ -13,7 +13,7 @@
     "chat.agent.enabled": false,
 
     "workbench.colorTheme": "Catppuccin Mocha",
-    "workbench.iconTheme": "catppuccin-mocha",
+    "npm.scriptRunner": "bun",
     "editor.fontFamily": "JetBrainsMono Nerd Font",
     "security.workspace.trust.enabled": false,
     "window.commandCenter": false,
@@ -47,6 +47,34 @@
         "<C-d>": true
     },
     "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["<leader>", "h", "f"],
+            "commands": ["jumplist.addCurrent"]
+        },
+        {
+            "before": ["<leader>", "h", "d"],
+            "commands": ["jumplist.open"]
+        },
+        {
+            "before": ["<a-s>", "j"],
+            "commands": ["jumplist.jump1"]
+        },
+        {
+            "before": ["<a-s>", "k"],
+            "commands": ["jumplist.jump2"]
+        },
+        {
+            "before": ["<a-s>", "l"],
+            "commands": ["jumplist.jump3"]
+        },
+        {
+            "before": ["<a-s>", ";"],
+            "commands": ["jumplist.jump4"]
+        },
+        {
+            "before": ["<a-s>", "i"],
+            "commands": ["jumplist.jump5"]
+        },
         {
             "before": [ ":" ],
             "commands": [ "vim.showQuickpickCmdLine" ],
@@ -151,4 +179,5 @@
     ],
     "workbench.startupEditor": "none",
     "git.autofetch": true,
+    "mc-dp-icons.workspaceDetection": true,
 }
