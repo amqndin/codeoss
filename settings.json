@@ -23,6 +23,7 @@
     "window.titleBarStyle": "native",
     "window.menuBarVisibility": "toggle",
     "editor.fontSize": 16,
+    "debug.console.fontSize": 16,
     "terminal.integrated.fontSize": 16,
     "catppuccin.accentColor": "blue",
     "editor.minimap.enabled": false,
@@ -49,12 +50,20 @@
     },
     "vim.normalModeKeyBindingsNonRecursive": [
         {
-            "before": ["<leader>", "h", "f"],
+            "before": ["<leader>", "j", "f"],
             "commands": ["jumplist.addCurrent"]
         },
         {
-            "before": ["<leader>", "h", "d"],
+            "before": ["<leader>", "j", "d"],
             "commands": ["jumplist.open"]
+        },
+        {
+            "before": ["<leader>", "j", "s"],
+            "commands": ["jumplist.deleteCurrent"]
+        },
+        {
+            "before": ["<leader>", "c"],
+            "commands": ["workbench.action.closeActiveEditor"]
         },
         {
             "before": [ ":" ],
