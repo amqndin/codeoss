@@ -14,6 +14,10 @@
     "chat.agent.enabled": false,
 
     "workbench.colorTheme": "Catppuccin Mocha",
+    "editor.smoothScrolling": true,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "workbench.list.smoothScrolling": true,
+    "terminal.integrated.smoothScrolling": true,
     "npm.scriptRunner": "bun",
     "editor.fontFamily": "JetBrainsMono Nerd Font",
     "security.workspace.trust.enabled": false,
@@ -169,5 +173,4 @@
     ],
     "workbench.startupEditor": "none",
     "git.autofetch": true,
-    "mc-dp-icons.workspaceDetection": true,
 }
